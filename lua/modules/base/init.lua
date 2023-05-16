@@ -949,4 +949,8 @@ modules["kylechui/nvim-surround"] = {
     config = completion_config.nvim_surround,
 }
 
+modules["stevearc/profile.nvim"] = {
+    commit = funcs.get_commit("profile", plugins_snapshot),
+}
+
 return modules
